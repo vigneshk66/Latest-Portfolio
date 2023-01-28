@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicky's Portfolio website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"
+        integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="header" id="home">
+            <div class="title">
+                <h1>Port<span>folio</span></h1>
+            </div>
+            <div class="nav">
+            <nav class="nav-bar">
+                <ul id="sidemenu">
+                    <li><a href="#home">home</a></li>
+                    <li><a href="#about">about</a></li>
+                    <li><a href="#skills">skills</a></li>
+                    <li><a href="#project">project</a></li>
+                    <li><a href="#education1">education</a></li>
+                    <li><a href="#conatct">conatct</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            </div>
+        <div class="name">
+            <p>Hi,I'm <span>Vignesh</span></p>
+            <p>Full Stack Developer...</p>
+            <div class="link-icon">
+                <a href="https://github.com/vigneshk66/" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <span>Email : vigneshk1198@gamil.com</span>
+            </div>
+        </div>
+    </div>
+
+    <div id="about">
+        <div class="img-container">
+            <img src="image/vicky1.png" class="myimg" alt="vicky's img">
+        </div>
+        <div class="aboutme">
+            <h1>ABOUT ME</h1>
+            <p>I'm vignesh. I am from dharmapuri in tamil nadu. I have completed my under graduation in B.E Mechanical
+                Engineering from thanathi periyar govt instutite of technology, vellore. I have basic knowlage in html
+                css and javascript ,currently I am pursuing java full stack developement certification course from
+                besant technologies btm layout, bangalore.</p>
+        </div>
+        <div class="top">
+            <a href="#home" >
+                <i class="fa-sharp fa-solid fa-arrow-up"></i>
+            </a>
+        </div>
+    </div>
+
+    <div id="skills">
+        <div class="skilltitle">
+            <h1>SKILLS</h1>
+        </div>
+        <div class="topics">
+            <div class="grid" id="topic-1">
+                <h3>HTML</h3>
+                <ul>
+                    <li>Good knowledge on HTML Tags</li>
+                    <li>Well versed on Attributes</li>
+                    <li>Understanding on Table and Form concepts</li>
+                </ul>
+            </div>
+            <div class="grid" id="topic-2">
+                <h3>CSS</h3>
+                <ul>
+                    <li>Good knowledge on Embedded CSS</li>
+                    <li>Inline, Internal and External CSS</li>
+                    <li>Well versed in CSS properties and Selectors</li>
+                </ul>
+            </div>
+            <div class="grid" id="topic-3">
+                <h3>JAVASCRIPT</h3>
+                <ul>
+                    <li>Types of JavaScript</li>
+                    <li>Variables, Keywords, Data types, and Operators</li>
+                    <li>Arrays Methods, Strings Methods</li>
+                    <li>Objects of JavaScript</li>
+                    <li>Event Handlers</li>
+                </ul>
+            </div>
+            <div class="grid" id="topic-4">
+                <h3>JAVA</h3>
+                <ul>
+                    <li>Good knowledge on OOPs</li>
+                    <li>well on Data Types</li>
+                    <li>Basic knowledge on Loops,operators and
+                        keywords</li>
+                </ul>
+            </div>
+            <div class="grid" id="topic-5">
+                <h3>SQL</h3>
+                <ul>
+                    <li>Basic knowledge on Quries and keywords</li>
+                </ul>
+            </div>
+        </div>
+    </div> 
+
+     <!-- <div id="project">
+      
+    </div> -->
+
+    <!-- education -->
+    <div id="education1">
+        <div class="edutitle">
+            <h1>EDUCATION</h1>
+        </div>
+        <div class="grid" id="education">
+            <h3>CERTTIFICATION <span>2022</span></h3>
+            <p>Java Full Stack Developer certification completed in Besant Technologies, Bangalore</p>
+        </div>
+        <div class="grid" id="education">
+            <h3>UG <span>2015 - 2019</span></h3>
+            <p>Thanthai Periyar Government Institute of Technology, Vellore</p>
+        </div>
+        <div class="grid" id="education">
+            <h3>HSS <span>2013-2015</span></h3>
+            <p>Mangalam Higher Secondary School, Anthiyur</p>
+        </div>
+        <div class="grid" id="education">
+            <h3>SSLC <span>2011-2013</span></h3>
+            <p>Government Higher Secondary School, Palacode</p>
+        </div>
+    </div>
+
+    <!-- contact -->
+    <div id="conatct">
+     <div class="con-container">
+        <div class="contitle">
+            <h1>CONTACT</h1>
+        </div>
+        <div class="details">
+            <input type="email" placeholder="Email"> <br>
+            <input type="text" placeholder="Subject"> <br>
+            <textarea name="" id="" cols="30" rows="10" placeholder="Enter your message"></textarea><br>
+            <button>Send Message</button>
+        </div>
+     </div>
+    </div>
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
